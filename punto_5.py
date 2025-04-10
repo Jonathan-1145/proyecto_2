@@ -142,7 +142,7 @@ print(f"- Exactitud: {exactitud:.2f}%")
 
 """Punto d: Clasificación de los datos del set de prueba con el modelo entrenado por los pasos anteriores"""
 print()
-print("   🔍 CLASIFICACIÓN DEL SET DE PRUEBA")
+print("   🔍 Clasificación del set de Prueba")
 print("-" * 40)
 
 # 1. Aplicar el clasificador al set de prueba
