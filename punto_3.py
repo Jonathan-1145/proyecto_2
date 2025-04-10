@@ -87,7 +87,7 @@ mu_Y = 1000 * p
 sigma_Y = (1000 * p * (1 - p)) ** 0.5
 z = (25.5 - mu_Y) / sigma_Y
 prob = 1 - norm.cdf(z)
-print(f"La proabilidad de que más de 25 de los 1.000 servidores tengan una temperatura superior a 41°C es aproximadamente de {prob * 100:.10f}%")
+print(f"La probabilidad de que más de 25 de los 1.000 servidores tengan una temperatura superior a 41°C es aproximadamente de {prob * 100:.10f}%")
 
 print("--------------------------------------------------")
 
